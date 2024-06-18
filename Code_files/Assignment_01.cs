@@ -6,13 +6,13 @@
 //    number then print it. 
 #region Question_1
 
-    Console.Write("Enter a number: ");
-    string input = Console.ReadLine();
-    if (int.TryParse(input, out int num))
-    {
-        Console.WriteLine("You entered: " + num);
-    }
-    else Console.WriteLine("Invalid input. Please enter a valid number.");
+    //Console.Write("Enter a number: ");
+    //string input = Console.ReadLine();
+    //if (int.TryParse(input, out int num))
+    //{
+    //    Console.WriteLine("You entered: " + num);
+    //}
+    //else Console.WriteLine("Invalid input. Please enter a valid number.");
     
 #endregion
 
