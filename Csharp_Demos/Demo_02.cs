@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-class Program
+class Demo_02
 {
     static void Main()
     {
