@@ -5,7 +5,7 @@
 namespace Assignment_02;
 using System;
 
-class Program
+class Assignment_02
 {
     static void Main(string[] args)
     {
