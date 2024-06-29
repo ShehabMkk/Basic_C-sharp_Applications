@@ -4,7 +4,7 @@
 using System.Text;
 namespace Demo_03;
 
-class Program
+class Demo_03
 {
     static void Main(string[] args)
     {
