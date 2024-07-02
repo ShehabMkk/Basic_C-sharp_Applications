@@ -2,10 +2,10 @@
 //===================================Assignment_05============================================\\
 //============================================================================================\\
 
-namespace Assignment_5;
+namespace Assignment_05;
 using System;
 
-class Program
+class Assignment_05
 {
     static void Main(string[] args)
     {
