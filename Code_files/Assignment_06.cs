@@ -4,7 +4,7 @@
 
 namespace Assignment_06;
 using System;
-class Program
+class Assignment_06
 {
     static void Main(string[] args)
     {
