@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Demo_01_OOP
+namespace Demo_06
 {
     #region Part 01 & Part 02: Access Modifiers
     public class AccessModifiersExample
@@ -99,7 +99,7 @@ namespace Demo_01_OOP
     
     //====================================================================================\\
 
-    class Program
+    class Demo_06
     {
         static void Main(string[] args)
         {
