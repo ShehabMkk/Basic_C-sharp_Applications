@@ -84,7 +84,7 @@ namespace Assignment_07
     #endregion
 
     #region Program
-    class Program
+    class Assignment_07
     {
         static void Main(string[] args)
         {
