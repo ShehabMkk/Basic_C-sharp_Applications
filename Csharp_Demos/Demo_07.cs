@@ -204,7 +204,7 @@ public class InterfaceExampleDemo
 
 //============================================================================================\\
 
-class Program
+class Demo_07
 {
     static void Main(string[] args)
     {
