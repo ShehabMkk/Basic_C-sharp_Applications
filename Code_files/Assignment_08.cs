@@ -219,7 +219,7 @@ public class Duration
 
 //============================================================================================\\
 
-class Program
+class Assignment_08
 {
     static void Main(string[] args)
     {
