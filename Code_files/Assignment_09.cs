@@ -5,7 +5,7 @@
 namespace Assignment_09;
 using System;
 
-class Maths
+static class Maths
 {
     public static double Add(double a, double b)
     {
@@ -33,7 +33,7 @@ class Maths
     }
 }
 
-class Program
+class Assignment_09
 {
     static void Main()
     {
