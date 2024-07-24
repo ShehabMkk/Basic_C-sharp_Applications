@@ -82,7 +82,7 @@ public class EvenNumbersExtractor
 
 //============================================================================================\\
 
-public class Program
+public class Assignment_10
 {
     public static void Main()
     {
