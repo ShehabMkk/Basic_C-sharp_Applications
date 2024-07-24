@@ -6,9 +6,77 @@ namespace Assignment_11;
 using System;
 using System.Collections.Generic;
 
-class Program
+
+#region Book&BookFunctions
+
+public class Book
+{
+    public string ISBN { get; set; }
+    public string Title { get; set; }
+    public string Authors { get; set; }
+    public DateTime PublicationDate { get; set; }
+    public decimal Price { get; set; }
+
+    public Book(string _ISBN, string _Title, string _Authors, DateTime _PublicationDate, decimal _Price)
+    {
+        ISBN = _ISBN;
+        Title = _Title;
+        Authors = _Authors;
+        PublicationDate = _PublicationDate;
+        Price = _Price;
+    }
+
+    public override string ToString()
+    {
+        string authors = string.Join(", ", Authors);
+        return $"ISBN: {ISBN}, Title: {Title}, Authors: {authors}, Publication Date: {PublicationDate.ToShortDateString()}, Price: {Price:C}";
+    }
+}
+
+//============================================================================================\\
+
+public class BookFunctions
+{
+    public static string GetTitle(Book B)
+    {
+        return B.Title;
+    }
+
+    public static string GetAuthors(Book B)
+    {
+        return B.Authors;
+    }
+
+    public static string GetPrice(Book B)
+    {
+        return B.Price.ToString("C");
+    }
+}
+
+#endregion
+
+//============================================================================================\\
+
+#region LibraryEngine
+
+public class LibraryEngine
+{
+    public static void ProcessBooks(List<Book> bList,Func<Book, string> fPtr)
+    {
+        foreach (var B in bList)
+        {
+            Console.WriteLine(fPtr(B));
+        }
+    }
+}
+
+#endregion
+
+class Assignment_11
 {
     
+#region FirstNonRepeatedCharacter
+
     static int FirstNonRepeatedCharacter(string s)
     {
         Dictionary<char, int> charCount = new Dictionary<char, int>();
@@ -34,6 +102,8 @@ class Program
 
         return -1;
     }
+
+    #endregion
     
     //============================================================================================\\ 
     
