@@ -1,0 +1,14 @@
+C:\Users\HP\RiderProjects\Quiz_02\bin\Debug\net8.0\Quiz_02.exe
+C:\Users\HP\RiderProjects\Quiz_02\bin\Debug\net8.0\Quiz_02.deps.json
+C:\Users\HP\RiderProjects\Quiz_02\bin\Debug\net8.0\Quiz_02.runtimeconfig.json
+C:\Users\HP\RiderProjects\Quiz_02\bin\Debug\net8.0\Quiz_02.dll
+C:\Users\HP\RiderProjects\Quiz_02\bin\Debug\net8.0\Quiz_02.pdb
+C:\Users\HP\RiderProjects\Quiz_02\obj\Debug\net8.0\Quiz_02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\Quiz_02\obj\Debug\net8.0\Quiz_02.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\Quiz_02\obj\Debug\net8.0\Quiz_02.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\Quiz_02\obj\Debug\net8.0\Quiz_02.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\Quiz_02\obj\Debug\net8.0\Quiz_02.dll
+C:\Users\HP\RiderProjects\Quiz_02\obj\Debug\net8.0\refint\Quiz_02.dll
+C:\Users\HP\RiderProjects\Quiz_02\obj\Debug\net8.0\Quiz_02.pdb
+C:\Users\HP\RiderProjects\Quiz_02\obj\Debug\net8.0\Quiz_02.genruntimeconfig.cache
+C:\Users\HP\RiderProjects\Quiz_02\obj\Debug\net8.0\ref\Quiz_02.dll

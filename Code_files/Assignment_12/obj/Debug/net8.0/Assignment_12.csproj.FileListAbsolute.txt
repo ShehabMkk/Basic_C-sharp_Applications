@@ -1,0 +1,14 @@
+C:\Users\HP\RiderProjects\Assignment_12\bin\Debug\net8.0\Assignment_12.exe
+C:\Users\HP\RiderProjects\Assignment_12\bin\Debug\net8.0\Assignment_12.deps.json
+C:\Users\HP\RiderProjects\Assignment_12\bin\Debug\net8.0\Assignment_12.runtimeconfig.json
+C:\Users\HP\RiderProjects\Assignment_12\bin\Debug\net8.0\Assignment_12.dll
+C:\Users\HP\RiderProjects\Assignment_12\bin\Debug\net8.0\Assignment_12.pdb
+C:\Users\HP\RiderProjects\Assignment_12\obj\Debug\net8.0\Assignment_12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\Assignment_12\obj\Debug\net8.0\Assignment_12.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\Assignment_12\obj\Debug\net8.0\Assignment_12.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\Assignment_12\obj\Debug\net8.0\Assignment_12.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\Assignment_12\obj\Debug\net8.0\Assignment_12.dll
+C:\Users\HP\RiderProjects\Assignment_12\obj\Debug\net8.0\refint\Assignment_12.dll
+C:\Users\HP\RiderProjects\Assignment_12\obj\Debug\net8.0\Assignment_12.pdb
+C:\Users\HP\RiderProjects\Assignment_12\obj\Debug\net8.0\Assignment_12.genruntimeconfig.cache
+C:\Users\HP\RiderProjects\Assignment_12\obj\Debug\net8.0\ref\Assignment_12.dll

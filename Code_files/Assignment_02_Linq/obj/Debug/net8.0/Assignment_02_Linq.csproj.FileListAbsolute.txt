@@ -1,0 +1,14 @@
+C:\Users\HP\RiderProjects\Assignment_02_Linq\bin\Debug\net8.0\Assignment_02_Linq.exe
+C:\Users\HP\RiderProjects\Assignment_02_Linq\bin\Debug\net8.0\Assignment_02_Linq.deps.json
+C:\Users\HP\RiderProjects\Assignment_02_Linq\bin\Debug\net8.0\Assignment_02_Linq.runtimeconfig.json
+C:\Users\HP\RiderProjects\Assignment_02_Linq\bin\Debug\net8.0\Assignment_02_Linq.dll
+C:\Users\HP\RiderProjects\Assignment_02_Linq\bin\Debug\net8.0\Assignment_02_Linq.pdb
+C:\Users\HP\RiderProjects\Assignment_02_Linq\obj\Debug\net8.0\Assignment_02_Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\Assignment_02_Linq\obj\Debug\net8.0\Assignment_02_Linq.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\Assignment_02_Linq\obj\Debug\net8.0\Assignment_02_Linq.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\Assignment_02_Linq\obj\Debug\net8.0\Assignment_02_Linq.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\Assignment_02_Linq\obj\Debug\net8.0\Assignment_02_Linq.dll
+C:\Users\HP\RiderProjects\Assignment_02_Linq\obj\Debug\net8.0\refint\Assignment_02_Linq.dll
+C:\Users\HP\RiderProjects\Assignment_02_Linq\obj\Debug\net8.0\Assignment_02_Linq.pdb
+C:\Users\HP\RiderProjects\Assignment_02_Linq\obj\Debug\net8.0\Assignment_02_Linq.genruntimeconfig.cache
+C:\Users\HP\RiderProjects\Assignment_02_Linq\obj\Debug\net8.0\ref\Assignment_02_Linq.dll
