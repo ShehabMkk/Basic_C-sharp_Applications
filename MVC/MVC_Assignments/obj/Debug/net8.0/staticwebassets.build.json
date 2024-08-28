@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "dpIbvwcsLDIrNr9mkgjY262jgIBLhuKaFXKvAF/69ks=",
+  "Source": "MVC_Assignments",
+  "BasePath": "_content/MVC_Assignments",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MVC_Assignments\\wwwroot",
+      "Source": "MVC_Assignments",
+      "ContentRoot": "C:\\Users\\HP\\RiderProjects\\MVC_Assignments\\wwwroot\\",
+      "BasePath": "_content/MVC_Assignments",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\RiderProjects\\MVC_Assignments\\wwwroot\\Bootstrap\\assets\\favicon.ico",
+      "SourceId": "MVC_Assignments",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\RiderProjects\\MVC_Assignments\\wwwroot\\",
+      "BasePath": "_content/MVC_Assignments",
+      "RelativePath": "Bootstrap/assets/favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Bootstrap\\assets\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\RiderProjects\\MVC_Assignments\\wwwroot\\Bootstrap\\css\\styles.css",
+      "SourceId": "MVC_Assignments",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\RiderProjects\\MVC_Assignments\\wwwroot\\",
+      "BasePath": "_content/MVC_Assignments",
+      "RelativePath": "Bootstrap/css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Bootstrap\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\RiderProjects\\MVC_Assignments\\wwwroot\\Bootstrap\\js\\scripts.js",
+      "SourceId": "MVC_Assignments",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\RiderProjects\\MVC_Assignments\\wwwroot\\",
+      "BasePath": "_content/MVC_Assignments",
+      "RelativePath": "Bootstrap/js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Bootstrap\\js\\scripts.js"
+    }
+  ]
+}

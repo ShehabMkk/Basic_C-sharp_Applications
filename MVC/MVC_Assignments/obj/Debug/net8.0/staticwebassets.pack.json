@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\RiderProjects\\MVC_Assignments\\wwwroot\\Bootstrap\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\Bootstrap\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\RiderProjects\\MVC_Assignments\\wwwroot\\Bootstrap\\css\\styles.css",
+      "PackagePath": "staticwebassets\\Bootstrap\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\RiderProjects\\MVC_Assignments\\wwwroot\\Bootstrap\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\Bootstrap\\js\\scripts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVC_Assignments.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MVC_Assignments.props",
+      "PackagePath": "build\\MVC_Assignments.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MVC_Assignments.props",
+      "PackagePath": "buildMultiTargeting\\MVC_Assignments.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MVC_Assignments.props",
+      "PackagePath": "buildTransitive\\MVC_Assignments.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
