@@ -1,0 +1,17 @@
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\bin\Debug\net8.0\Company.Repository.deps.json
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\bin\Debug\net8.0\Company.Repository.runtimeconfig.json
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\bin\Debug\net8.0\Company.Repository.dll
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\bin\Debug\net8.0\Company.Repository.pdb
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\bin\Debug\net8.0\Company.Data.dll
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\bin\Debug\net8.0\Company.Data.pdb
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\Company.Repository.csproj.AssemblyReference.cache
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\Company.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\Company.Repository.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\Company.Repository.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\Company.Repository.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\Company..98502CC8.Up2Date
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\Company.Repository.dll
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\refint\Company.Repository.dll
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\Company.Repository.pdb
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\Company.Repository.genruntimeconfig.cache
+C:\Users\HP\RiderProjects\Company.Web\Company.Repository\obj\Debug\net8.0\ref\Company.Repository.dll
