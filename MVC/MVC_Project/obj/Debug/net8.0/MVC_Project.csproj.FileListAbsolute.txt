@@ -1,0 +1,8 @@
+C:\Users\HP\RiderProjects\MVC_Project\obj\Debug\net8.0\MVC_Project.csproj.AssemblyReference.cache
+C:\Users\HP\RiderProjects\MVC_Project\obj\Debug\net8.0\MVC_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\MVC_Project\obj\Debug\net8.0\MVC_Project.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\MVC_Project\obj\Debug\net8.0\MVC_Project.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\MVC_Project\obj\Debug\net8.0\MVC_Project.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\MVC_Project\obj\Debug\net8.0\MVC_Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\RiderProjects\MVC_Project\obj\Debug\net8.0\MVC_Project.RazorAssemblyInfo.cache
+C:\Users\HP\RiderProjects\MVC_Project\obj\Debug\net8.0\MVC_Project.RazorAssemblyInfo.cs
