@@ -22,4 +22,11 @@
       </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Employee\Create.cshtml" />
+      <AdditionalFiles Include="Views\Employee\Details.cshtml" />
+      <AdditionalFiles Include="Views\Employee\Index.cshtml" />
+      <AdditionalFiles Include="Views\Employee\Update.cshtml" />
+    </ItemGroup>
+
 </Project>

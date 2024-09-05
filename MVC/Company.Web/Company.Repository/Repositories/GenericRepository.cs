@@ -13,9 +13,11 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
         _context = context;
     }
 
-    public void GetById(int id)
+    public T GetById(int id)
     {
         _context.Set<T>().Find(id);
+
+        return _context.Set<T>().Find(id);
     }
 
     public IEnumerable<T> GetAll() => _context.Set<T>().ToList();

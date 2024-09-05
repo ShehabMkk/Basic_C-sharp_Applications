@@ -1,6 +1,11 @@
 using Company.Data.Contexts;
 using Company.Repository.Interface;
+using Company.Repository.Interfaces;
 using Company.Repository.Repositories;
+using Company.Service.Interfaces.Department;
+using Company.Service.Interfaces.Employee;
+using Company.Service.Services.Department;
+using Company.Service.Services.Employee;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
@@ -20,6 +25,12 @@ public class Program
             Options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
         });
         builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+        builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+        builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+        builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+        builder.Services.AddScoped<IDepartmentService, DepartmentService>();
+        
+
 
         var app = builder.Build();
 

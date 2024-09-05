@@ -18,12 +18,52 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\HP\RiderProjects\Company.Web\Company.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Employee/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Department/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Department/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Department/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Home/NotFoundPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb3RGb3VuZFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HP/RiderProjects/Company.Web/Company.Web/Views/Home/Privacy.cshtml]
