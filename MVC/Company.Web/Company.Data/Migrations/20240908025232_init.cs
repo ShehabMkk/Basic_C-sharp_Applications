@@ -6,30 +6,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Company.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class EmployeePage : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
-        {
-            migrationBuilder.AlterColumn<string>(
-                name: "ImageUrl",
-                table: "Employees",
-                type: "nvarchar(max)",
-                nullable: true,
-                oldClrType: typeof(string),
-                oldType: "nvarchar(max)");
-
-            migrationBuilder.AlterColumn<DateTime>(
-                name: "HiringDate",
-                table: "Employees",
-                type: "datetime2",
-                nullable: true,
-                oldClrType: typeof(DateTime),
-                oldType: "datetime2");
-        }
-
-        /// <inheritdoc />
-        protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterColumn<string>(
                 name: "ImageUrl",
@@ -41,15 +21,28 @@ namespace Company.Data.Migrations
                 oldType: "nvarchar(max)",
                 oldNullable: true);
 
-            migrationBuilder.AlterColumn<DateTime>(
-                name: "HiringDate",
+            migrationBuilder.AddColumn<DateTime>(
+                name: "HireDate",
                 table: "Employees",
                 type: "datetime2",
                 nullable: false,
-                defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                oldClrType: typeof(DateTime),
-                oldType: "datetime2",
-                oldNullable: true);
+                defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropColumn(
+                name: "HireDate",
+                table: "Employees");
+
+            migrationBuilder.AlterColumn<string>(
+                name: "ImageUrl",
+                table: "Employees",
+                type: "nvarchar(max)",
+                nullable: true,
+                oldClrType: typeof(string),
+                oldType: "nvarchar(max)");
         }
     }
 }

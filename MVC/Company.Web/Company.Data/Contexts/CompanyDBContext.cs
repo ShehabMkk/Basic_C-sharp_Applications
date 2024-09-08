@@ -1,6 +1,8 @@
+using AutoMapper;
 using System.Reflection;
 using Company.Data.Models;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace Company.Data.Contexts;
 
@@ -29,6 +31,7 @@ public class CompanyDBContext : DbContext
             .WithMany(d => d.Employees)
             .HasForeignKey(e => e.DepartmentId)
             .OnDelete(DeleteBehavior.Restrict);
+        
         
         modelBuilder.Entity<Employee>().Property(e => e.Id).ValueGeneratedOnAdd();
         modelBuilder.Entity<Department>().Property(d => d.Id).ValueGeneratedOnAdd();

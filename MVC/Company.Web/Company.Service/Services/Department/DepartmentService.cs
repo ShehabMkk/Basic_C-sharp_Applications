@@ -1,24 +1,22 @@
-using Company.Repository.Interface;
+using AutoMapper;
 using Company.Repository.Interfaces;
-using Company.Service.Interfaces.Department;
-namespace Company.Service.Services.Department;
+using Company.Service.Interfaces.Dto;
 using Company.Data.Models;
+
+namespace Company.Service.Interfaces.Services;
 
 public class DepartmentService : IDepartmentService
 {
-
     private readonly IUnitOfWork _unitOfWork;
-    public DepartmentService(IUnitOfWork unitOfWork)
+    private readonly IMapper _mapper;
+    
+    public DepartmentService(IUnitOfWork unitOfWork,IMapper mapper)
     {
         _unitOfWork = unitOfWork;
+        _mapper = mapper;
     }
 
-    public IEnumerable<Department> GetAll()
-    {
-        return _unitOfWork.DepartmentRepository.GetAll();
-    }
-
-    public Department GetById(int? id)
+    public DepartmentDto GetById(int? id)
     {
         if (id is null)
             return null;
@@ -27,33 +25,48 @@ public class DepartmentService : IDepartmentService
         if (department is null)
             return null;
         
-        return department;
+        var mappedDepartment = _mapper.Map<DepartmentDto>(department);
+        return mappedDepartment;
     }
 
-    public void Add(Department department)
+    public IEnumerable<DepartmentDto> GetAll()
     {
-        var mappedDepartment = new Department
-        {
-            Name = department.Name,
-            Code = department.Code,
-            IsCreated = DateTime.Now
-        };
+        var departments = _unitOfWork.DepartmentRepository.GetAll();
+        var mappedDepartments = _mapper.Map<IEnumerable<DepartmentDto>>(departments);
+        return mappedDepartments;
+    }
+
+    public void Add(DepartmentDto departmentDto)
+    {
+        // var mappedDepartment = new DepartmentDto()
+        // {
+        //     Code = department.Code,
+        //     Name = department.Name,
+        //     CreateAt = DateTime.Now,
+        // };
+        
+        var mappedDepartment = _mapper.Map<Department>(departmentDto);
+        
         _unitOfWork.DepartmentRepository.Add(mappedDepartment);
 
-    }
-
-    public void Update(Department department)
-    {
-        _unitOfWork.DepartmentRepository.Update(department);
-
         _unitOfWork.Complete();
     }
 
-    public void Delete(Department department)
+    public void Update(DepartmentDto department)
     {
-        _unitOfWork.DepartmentRepository.Delete(department);
+        // _unitOfWork.DepartmentRepository.Update(department);
+        // _unitOfWork.Complete();
+
+        // var mappedDepartment = _mapper.Map<Department>(department);
+        // _unitOfWork.DepartmentRepository.Update(mappedDepartment);
+        // _unitOfWork.Complete();
+    }
+
+    public void Delete(DepartmentDto departmentDto)
+    {
+        var mappedDepartment = _mapper.Map<Department>(departmentDto);
+        _unitOfWork.DepartmentRepository.Delete(mappedDepartment);
 
         _unitOfWork.Complete();
     }
-
 }

@@ -1,11 +1,20 @@
-namespace Company.Service.Interfaces.Employee;
-using Company.Data.Models;
+using Company.Service.Interfaces.Dto;
+using Data.Models;
+
+namespace Company.Service.Interfaces;
 
 public interface IEmployeeService
 {
-    Employee GetById(int? id);
-    IEnumerable<Employee> GetAll();
-    void Add(Employee employee);
-    void Update(Employee employee);
-    void Delete(Employee employee);  
+    EmployeeDto GetById(int? id);
+    
+    IEnumerable<EmployeeDto> GetAll();
+    
+    void Add(EmployeeDto employee);
+    
+    void Update(EmployeeDto employee);
+    
+    void Delete(EmployeeDto employee);
+
+    IEnumerable<EmployeeDto> GetEmployeeByName(string name);
+
 }

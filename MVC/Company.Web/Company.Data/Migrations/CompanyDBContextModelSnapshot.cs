@@ -73,10 +73,14 @@ namespace Company.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("HireDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime?>("HiringDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("ImageUrl")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("IsCreated")
