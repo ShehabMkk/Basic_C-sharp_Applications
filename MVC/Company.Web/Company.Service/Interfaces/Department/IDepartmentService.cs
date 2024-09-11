@@ -1,3 +1,4 @@
+using Company.Data.Models;
 using Company.Service.Interfaces.Dto;
 using Data.Models;
 
@@ -11,8 +12,8 @@ public interface IDepartmentService
     
     void Add(DepartmentDto department);
     
-    void Update(DepartmentDto department);
+    void Update(Department department);
     
-    void Delete(DepartmentDto department);
+    void Delete(Department department);
 
 }

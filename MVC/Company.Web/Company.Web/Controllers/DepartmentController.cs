@@ -16,9 +16,9 @@ namespace Company.Web.Controllers
         // GET: DepartmentController
         public ActionResult Index()
         {
-            var departments = _departmentService.GetAll();
+            var department = _departmentService.GetAll();
             // TempData.Keep("TextTempMessage");
-            return View(departments);
+            return View(department);
         }
         [HttpGet]
         public IActionResult Create()
@@ -47,23 +47,23 @@ namespace Company.Web.Controllers
             }
         }
 
-        public IActionResult Details(int? id,string viewName = "Details")
+        public IActionResult Details(int id,string viewName = "Details")
         {
             var department = _departmentService.GetById(id);
             if (department is null)
                 return RedirectToAction("NotFoundPage", null,"Home");
-            
+
             return View(viewName,department);
         }
-        
+
         [HttpGet]
-        public IActionResult Update(int? id)
+        public IActionResult Update(int id)
         {
             return Details(id,"Update");
         }
 
         [HttpPost]
-        public IActionResult Update(int? id, DepartmentDto department)
+        public IActionResult Update(int? id, Department department)
         {
             if (department.Id != id.Value)
                 return RedirectToAction("NotFoundPage", null,"Home");
@@ -72,14 +72,14 @@ namespace Company.Web.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult Delete(int id)
-        {
-            var department = _departmentService.GetById(id);
-            if (department is null)
-                return RedirectToAction("NotFoundPage", null,"Home");
-            
-            _departmentService.Delete(department);
-            return RedirectToAction(nameof(Index));
-        }
+        // public IActionResult Delete(int id)
+        // {
+        //     var department = _departmentService.GetById(id);
+        //     if (department is null)
+        //         return RedirectToAction("NotFoundPage", null,"Home");
+        //
+        //     _departmentService.Delete(department);
+        //     return RedirectToAction(nameof(Index));
+        // }
     }
 }

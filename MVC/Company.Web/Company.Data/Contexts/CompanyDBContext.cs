@@ -1,12 +1,14 @@
 using AutoMapper;
 using System.Reflection;
 using Company.Data.Models;
+using Data.Models.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
 namespace Company.Data.Contexts;
 
-public class CompanyDBContext : DbContext
+public class CompanyDBContext : IdentityDbContext<ApplicationUser>
 {
     public CompanyDBContext() { }
     public CompanyDBContext(DbContextOptions<CompanyDBContext> options) : base(options)

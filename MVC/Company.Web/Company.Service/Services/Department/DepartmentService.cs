@@ -38,13 +38,6 @@ public class DepartmentService : IDepartmentService
 
     public void Add(DepartmentDto departmentDto)
     {
-        // var mappedDepartment = new DepartmentDto()
-        // {
-        //     Code = department.Code,
-        //     Name = department.Name,
-        //     CreateAt = DateTime.Now,
-        // };
-        
         var mappedDepartment = _mapper.Map<Department>(departmentDto);
         
         _unitOfWork.DepartmentRepository.Add(mappedDepartment);
@@ -52,20 +45,16 @@ public class DepartmentService : IDepartmentService
         _unitOfWork.Complete();
     }
 
-    public void Update(DepartmentDto department)
+    public void Update(Department department)
     {
-        // _unitOfWork.DepartmentRepository.Update(department);
-        // _unitOfWork.Complete();
+        _unitOfWork.DepartmentRepository.Update(department);
 
-        // var mappedDepartment = _mapper.Map<Department>(department);
-        // _unitOfWork.DepartmentRepository.Update(mappedDepartment);
-        // _unitOfWork.Complete();
+        _unitOfWork.Complete();
     }
 
-    public void Delete(DepartmentDto departmentDto)
+    public void Delete(Department department)
     {
-        var mappedDepartment = _mapper.Map<Department>(departmentDto);
-        _unitOfWork.DepartmentRepository.Delete(mappedDepartment);
+        _unitOfWork.DepartmentRepository.Delete(department);
 
         _unitOfWork.Complete();
     }

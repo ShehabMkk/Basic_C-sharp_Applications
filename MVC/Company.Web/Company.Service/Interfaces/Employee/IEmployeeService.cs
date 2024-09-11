@@ -1,3 +1,4 @@
+using Company.Data.Models;
 using Company.Service.Interfaces.Dto;
 using Data.Models;
 
@@ -11,9 +12,9 @@ public interface IEmployeeService
     
     void Add(EmployeeDto employee);
     
-    void Update(EmployeeDto employee);
+    void Update(Employee employee);
     
-    void Delete(EmployeeDto employee);
+    void Delete(Employee employee);
 
     IEnumerable<EmployeeDto> GetEmployeeByName(string name);
 

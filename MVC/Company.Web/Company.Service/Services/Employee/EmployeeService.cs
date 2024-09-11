@@ -51,16 +51,16 @@ public class EmployeeService : IEmployeeService
 
         _unitOfWork.Complete();
     }
-
-    public void Update(EmployeeDto employee)
+    
+    public void Update(Employee employee)
     {
-        // _unitOfWork.EmployeeRepository.Update(employee);
+        _unitOfWork.EmployeeRepository.Update(employee);
+
         _unitOfWork.Complete();
     }
 
-    public void Delete(EmployeeDto employeeDto)
+    public void Delete(Employee employee)
     {
-        Employee employee = _mapper.Map<Employee>(employeeDto);
         _unitOfWork.EmployeeRepository.Delete(employee);
 
         _unitOfWork.Complete();

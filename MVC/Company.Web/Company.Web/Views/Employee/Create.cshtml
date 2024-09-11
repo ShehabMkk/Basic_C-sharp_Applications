@@ -2,7 +2,7 @@
 @using Microsoft.AspNetCore.Mvc.TagHelpers
 @model Company.Service.Interfaces.Dto.EmployeeDto
 @{
-    var departments = new SelectList(ViewBag.Departments, nameof(Department.Id), nameof(Department.Name));
+    var departments = new SelectList(ViewBag.Department, nameof(Department.Id), nameof(Department.Name));
 }
 
 <form asp-action="Create" enctype="multipart/form-data">
