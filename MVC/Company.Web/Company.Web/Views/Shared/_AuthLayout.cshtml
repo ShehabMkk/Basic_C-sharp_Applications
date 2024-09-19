@@ -1,3 +1,7 @@
+@using Azure
+@using Azure.Core
+@model Company.Web.Models.SignUpViewModel
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +34,7 @@
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('SU_images/bg-01.jpg');">
+		<div class="container-login100" style="background-image: url('http://localhost:5180/SU_images/bg-01.jpg');">
 			<div class="wrap-login100">
 				@RenderBody()
 			</div>
