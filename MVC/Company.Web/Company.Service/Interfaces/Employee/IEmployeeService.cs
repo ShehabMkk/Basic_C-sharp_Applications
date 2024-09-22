@@ -6,9 +6,9 @@ namespace Company.Service.Interfaces;
 
 public interface IEmployeeService
 {
-    EmployeeDto GetById(int? id);
+    Employee GetById(int? id);
     
-    IEnumerable<EmployeeDto> GetAll();
+    IEnumerable<Employee> GetAll();
     
     void Add(EmployeeDto employee);
     
@@ -16,6 +16,6 @@ public interface IEmployeeService
     
     void Delete(Employee employee);
 
-    IEnumerable<EmployeeDto> GetEmployeeByName(string name);
+    IEnumerable<Employee> GetEmployeeByName(string name);
 
 }

@@ -16,7 +16,7 @@ public class DepartmentService : IDepartmentService
         _mapper = mapper;
     }
 
-    public DepartmentDto GetById(int? id)
+    public Department GetById(int? id)
     {
         if (id is null)
             return null;
@@ -25,14 +25,14 @@ public class DepartmentService : IDepartmentService
         if (department is null)
             return null;
         
-        var mappedDepartment = _mapper.Map<DepartmentDto>(department);
+        var mappedDepartment = _mapper.Map<Department>(department);
         return mappedDepartment;
     }
 
-    public IEnumerable<DepartmentDto> GetAll()
+    public IEnumerable<Department> GetAll()
     {
         var departments = _unitOfWork.DepartmentRepository.GetAll();
-        var mappedDepartments = _mapper.Map<IEnumerable<DepartmentDto>>(departments);
+        var mappedDepartments = _mapper.Map<IEnumerable<Department>>(departments);
         return mappedDepartments;
     }
 

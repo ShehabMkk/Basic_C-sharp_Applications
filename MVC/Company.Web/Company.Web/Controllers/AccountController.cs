@@ -25,7 +25,7 @@ namespace Company.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SignIn(SignUpViewModel input)
+        public async Task<IActionResult> SignUp(SignUpViewModel input)
         {
             if (ModelState.IsValid)
             {
@@ -39,7 +39,7 @@ namespace Company.Web.Controllers
                 };
                 var result = await _userManager.CreateAsync(user, input.Password);
                 if (result.Succeeded)
-                    return RedirectToAction("SignIn");
+                    return RedirectToAction("SignUp");
 
                 foreach (var error in result.Errors)
                     ModelState.AddModelError("", error.Description);

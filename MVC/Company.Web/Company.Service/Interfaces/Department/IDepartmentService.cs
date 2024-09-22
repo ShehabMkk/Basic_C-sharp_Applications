@@ -1,15 +1,17 @@
 using Company.Data.Models;
 using Company.Service.Interfaces.Dto;
+
 using Data.Models;
 
 namespace Company.Service.Interfaces;
 
 public interface IDepartmentService
 {
-    DepartmentDto GetById(int? id);
+    Department GetById(int? id);
+    IEnumerable<Department> GetAll();
+   // IEnumerable<DepartmentDto> GetAll();
     
-    IEnumerable<DepartmentDto> GetAll();
-    
+
     void Add(DepartmentDto department);
     
     void Update(Department department);
