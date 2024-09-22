@@ -18,7 +18,7 @@ namespace Company.Web.Controllers
 
         public ActionResult Index(string searchInp)
         {
-            IEnumerable<EmployeeDto> employee = new List<EmployeeDto>();
+            IEnumerable<Employee> employee = new List<Employee>();
             if (string.IsNullOrEmpty(searchInp))
                 employee = _employeeService.GetAll();
             else
@@ -77,15 +77,15 @@ namespace Company.Web.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // public IActionResult Delete(int id)
-        // {
-        //     var Employee = _employeeService.GetById(id);
-        //     if (Employee is null)
-        //         return RedirectToAction("NotFoundPage", null,"Home");
-        //
-        //     _employeeService.Delete(Employee);
-        //     return RedirectToAction(nameof(Index));
-        // }
+        public IActionResult Delete(int id)
+        {
+            var Employee = _employeeService.GetById(id);
+            if (Employee is null)
+                return RedirectToAction("NotFoundPage", null,"Home");
+        
+            _employeeService.Delete(Employee);
+            return RedirectToAction(nameof(Index));
+        }
 
     }
 }

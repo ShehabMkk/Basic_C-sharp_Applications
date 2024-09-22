@@ -1,0 +1,17 @@
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\bin\Debug\net8.0\Store.Repository.deps.json
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\bin\Debug\net8.0\Store.Repository.runtimeconfig.json
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\bin\Debug\net8.0\Store.Repository.dll
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\bin\Debug\net8.0\Store.Repository.pdb
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\bin\Debug\net8.0\Store.Data.dll
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\bin\Debug\net8.0\Store.Data.pdb
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\Store.Repository.csproj.AssemblyReference.cache
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\Store.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\Store.Repository.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\Store.Repository.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\Store.Repository.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\Store.Re.0C98E3FA.Up2Date
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\Store.Repository.dll
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\refint\Store.Repository.dll
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\Store.Repository.pdb
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\Store.Repository.genruntimeconfig.cache
+C:\Users\HP\RiderProjects\Store.web\Store.Repository\obj\Debug\net8.0\ref\Store.Repository.dll

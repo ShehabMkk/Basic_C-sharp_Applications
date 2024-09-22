@@ -16,7 +16,7 @@ public class EmployeeService : IEmployeeService
         _unitOfWork = unitOfWork;
         _mapper = mapper;
     }
-    public EmployeeDto GetById(int? id)
+    public Employee GetById(int? id)
     {
         if (id is null)
             return null;
@@ -28,16 +28,16 @@ public class EmployeeService : IEmployeeService
         
         
 
-        EmployeeDto employeeDto = _mapper.Map<EmployeeDto>(employee);
+        Employee employeeDto = _mapper.Map<Employee>(employee);
         
         return employeeDto;
     }
 
-    public IEnumerable<EmployeeDto> GetAll()
+    public IEnumerable<Employee> GetAll()
     {
         var employees = _unitOfWork.EmployeeRepository.GetAll();
         
-        IEnumerable<EmployeeDto> mappedEmployees = _mapper.Map<IEnumerable<EmployeeDto>>(employees);
+        IEnumerable<Employee> mappedEmployees = _mapper.Map<IEnumerable<Employee>>(employees);
         return mappedEmployees;
     }
 
@@ -66,11 +66,11 @@ public class EmployeeService : IEmployeeService
         _unitOfWork.Complete();
     }
 
-    public IEnumerable<EmployeeDto> GetEmployeeByName(string name)
+    public IEnumerable<Employee> GetEmployeeByName(string name)
     {
         var employees = _unitOfWork.EmployeeRepository.GetEmployeeByName(name);
         
-        IEnumerable<EmployeeDto> mappedEmployees = _mapper.Map<IEnumerable<EmployeeDto>>(employees);
+        IEnumerable<Employee> mappedEmployees = _mapper.Map<IEnumerable<Employee>>(employees);
         return mappedEmployees;
     }
 }
