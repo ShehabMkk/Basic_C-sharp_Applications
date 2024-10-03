@@ -289,3 +289,13 @@ C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\obj
 C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\obj\Debug\net8.0\Store.web.pdb
 C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\obj\Debug\net8.0\Store.web.genruntimeconfig.cache
 C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\obj\Debug\net8.0\ref\Store.web.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\StackExchange.Redis.Extensions.AspNetCore.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\StackExchange.Redis.Extensions.Core.dll

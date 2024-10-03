@@ -1,10 +1,13 @@
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 using Store.Data.Context;
 using Store.Repository.Interfaces;
 using Store.Repository.Repositories;
 using Store.Service.Services.Products.Dto;
 using Store.Service.Services.Products;
+using Store.Web.Extensions;
 using Store.Web.Helper;
+using Store.Web.Middleware;
 
 namespace Store.web;
 
@@ -15,24 +18,33 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
+
         builder.Services.AddControllers();
         builder.Services.AddDbContext<StoreDbContext>(options =>
         {
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
         });
-        
-        builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-        builder.Services.AddScoped<IProductService, ProductService>();
-        builder.Services.AddAutoMapper(typeof(ProductProfile));
+        builder.Services.AddDbContext<StoreIdentityDbContext>(options =>
+        {
+            options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
+        });
+
+        builder.Services.AddSingleton<IConnectionMultiplexer>(config =>
+        {
+            var configuration = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("Redis"));
+            return ConnectionMultiplexer.Connect(configuration);
+        });
+
+        builder.Services.AddApplicationServices();
+        builder.Services.AddIdentityServices();
         
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
         var app = builder.Build();
+        await ApplySeeding.ApplySeedingAsync(app);
 
-        ApplySeeding.ApplySeedingAsync(app);
-        
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
@@ -40,12 +52,17 @@ public class Program
             app.UseSwaggerUI();
         }
 
+        app.UseMiddleware<ExceptionMiddleware>();
+
         app.UseHttpsRedirection();
+        
+        app.UseStaticFiles();
+        
+        app.UseAuthentication();
 
         app.UseAuthorization();
 
-        app.UseStaticFiles();
-        
+
         app.MapControllers();
 
         app.Run();
