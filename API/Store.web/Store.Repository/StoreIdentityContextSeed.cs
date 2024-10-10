@@ -11,17 +11,17 @@ public class StoreIdentityContextSeed
         {
             var user = new AppUser
             {
-                DisplayName = "Omar Khalid",
-                Email = "omar@gmail.com",
-                UserName = "omarovici",
+                DisplayName = "SHEHAB MKK",
+                Email = "shehab.mkk2004@gmail.com",
+                UserName = "shehabmkk",
                 Address = new Address
                 {
-                    FirstName = "Omar",
-                    LastName = "Khalid",
+                    FirstName = "shehab",
+                    LastName = "mkk",
                     Street = "123 Main Street",
-                    City = "New York",
-                    State = "NY",
-                    PostalCode = "10001"
+                    City = "fayoum",
+                    State = "fayoum",
+                    PostalCode = "60131"
                 }
             };
             await userManager.CreateAsync(user, "Password@123");

@@ -299,3 +299,4 @@ C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin
 C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\StackExchange.Redis.dll
 C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\StackExchange.Redis.Extensions.AspNetCore.dll
 C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\StackExchange.Redis.Extensions.Core.dll
+C:\Users\HP\RiderProjects\Basic_C-sharp_Applications\API\Store.web\Store.web\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
