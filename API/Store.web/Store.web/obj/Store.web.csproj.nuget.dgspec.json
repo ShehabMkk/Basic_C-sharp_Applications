@@ -35,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,6 +63,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[46.2.0, )"
             }
           },
           "imports": [
@@ -115,6 +124,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -138,6 +152,10 @@
             "StackExchange.Redis.Extensions.AspNetCore": {
               "target": "Package",
               "version": "[10.2.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[46.2.0, )"
             }
           },
           "imports": [
@@ -195,6 +213,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -214,6 +237,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[46.2.0, )"
             }
           },
           "imports": [
@@ -271,6 +298,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -298,6 +330,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[46.2.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

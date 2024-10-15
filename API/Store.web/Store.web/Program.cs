@@ -39,11 +39,19 @@ public class Program
         });
 
         builder.Services.AddApplicationServices();
-        builder.Services.AddIdentityServices();
+        builder.Services.AddIdentityServices(builder.Configuration);
         
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
+        builder.Services.AddSwaggerDocumentation();
+
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("CorsPolicy", policy =>
+            {
+                policy.AllowAnyMethod().AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200", "http://localhost:25038");
+            });
+        });
 
         var app = builder.Build();
         await ApplySeeding.ApplySeedingAsync(app);
@@ -60,6 +68,8 @@ public class Program
         app.UseHttpsRedirection();
         
         app.UseStaticFiles();
+        
+        app.UseCors("CorsPolicy");
         
         app.UseAuthentication();
 
